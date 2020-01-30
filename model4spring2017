@@ -1,0 +1,124 @@
+FinalsScheduling
+The good days method completed in 0.186233 minutes
+The given template was:
+     Su    M     T     W     H     F     Sa
+     0     0     1     1     1     1     0
+     0     0     1     1     1     1     0
+     0     1     1     1     1     0     0
+
+     Su    M     T     W     H     F     Sa
+     0     1     1     1     1     0     0
+     0     1     1     1     0     0     0
+     0     1     1     1     0     0     0
+
+The following exams were preconstrained:
+     Su    M     T     W     H     F     Sa
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0    17    18    19    20     0     0
+
+     Su    M     T     W     H     F     Sa
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+
+You chose to allow up to 25 instances of students with three exams in one day, per day.
+ 
+ 
+Based on student data and constrained exams,
+  675 days with three exams were considered
+  153 days with two exams were considered
+   18 days with one exam were considered
+ 
+The optimal intraday score was: 494.500000
+The days with minimal intraday score were: 
+  3 days with three exams
+     3     5    11
+    16    14    22
+     9    21    13
+
+  4 days with two exams
+     1     2     7    12
+     4     8    10    15
+
+  1 days with one exam
+     6
+
+ 
+There were 10000 arrangements sampled with
+Average: 5724.137950
+Standard Deviation: 4994.633494
+See Figure 1 for a histogram of scores
+ 
+The Best Arranged Schedule was:
+Su   M    T    W    Th   F    Sa   
+0    0    4    15   8    10   0    
+0    0    1    12   2    7    0    
+0    17   18   19   20   0    0    
+Su   M    T    W    Th   F    Sa   
+0    3    11   5    6    0    0    
+0    16   22   14   0    0    0    
+0    9    13   21   0    0    0    
+ 
+|Su           |M            |T            |W            |Th           |F            |Sa           |
+|             |             |MWF 11AM     |MATH common  |MWF 4:30pm   |TTh 10:30am  |             |
+|             |             |MWF 8am      |TTh 1:30pm   |MWF 9am      |MWF 3pm      |             |
+|             |M 6pm        |T 6pm        |W 6pm        |Th 6pm       |             |             |
+|Su           |M            |T            |W            |Th           |F            |Sa           |
+|             |MWF 10am     |TTh noon     |MWF noon     |MWF 1:30pm   |             |             |
+|             |LANG common  |CS 220/120   |TTh 4:30pm   |             |             |             |
+|             |TTh 9am      |TTh 3pm      |BIOLOGY      |             |             |             |
+ 
+The student collision score of the schedule was: 625.000000
+The overall score of the schedule was: 625.000000
+The schedule had: 
+   twoB2b: 353
+    twoWb: 313
+   twoOvn: 352
+ threeB2b: 4
+ threeOvn: 10
+ 
+Collision types were distributed among students as follows:
+   twoB2b: 0.067 average/student, stdev= 0.258
+    twoWb: 0.060 average/student, stdev= 0.238
+   twoOvn: 0.067 average/student, stdev= 0.256
+ threeB2b: 0.001 average/student, stdev= 0.028
+ threeOvn: 0.002 average/student, stdev= 0.044
+See figure 2 for histograms of collision counts
+ 
+See figure 3 for details of collisions by year
+ 
+The number of students taking exams in each slot are:
+           Su          M          T           W            H           F          Sa
+           0           0        1179         936         243         650           0
+           0           0         429        1072        1466        1102           0
+           0         102          90          87           4           0           0
+
+           Su          M          T           W            H           F          Sa
+           0        1732         836        1201        1743           0           0
+           0         118         144         344           0           0           0
+           0         618         835         485           0           0           0
+
+
+n =
+
+     1
+
+The number of students that can leave after each exam are:
+           Su          M          T           W            H           F          Sa
+           0           0          29          45          20          98           0
+           0           0          13          71         182         112           0
+           0           8           7          11           0           0           0
+           0         505         347         787        1743           0           0
+           0          39          49         184           0           0           0
+           0         196         399         399           0           0           0
+
+The number of students that can leave each day are:
+           8          49         127         202         210         740         795        1370        1743
+
+The number of students who will have left by each day are:
+           8          57         184         386         596        1336        2131        3501        5244
+
+Average duration of the exam period per student is 7.44 days
+There were 12 students taking no exams
+diary off
